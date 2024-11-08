@@ -5,6 +5,7 @@ const allSections = {
   Experience: document.querySelector(".experiences"),
   Skills: document.querySelector(".skills"),
   Achievements: document.querySelector(".achievements"),
+  SelfMotivatedProjects: document.querySelector(".self-motivated-projects"),
 };
 
 function activeSection(btn) {

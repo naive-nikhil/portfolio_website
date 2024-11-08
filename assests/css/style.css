@@ -150,7 +150,8 @@ body {
 .educations,
 .experiences,
 .skills,
-.achievements {
+.achievements,
+.self-motivated-projects {
   height: 100vh;
   display: none;
 }
@@ -159,8 +160,8 @@ body {
   display: block;
 }
 
-.sections .section-heading {
-  margin: 4rem;
+.section-heading {
+  margin: 3rem;
   font-size: 4rem;
 }
 
@@ -209,7 +210,6 @@ body {
 }
 
 /* Individual styling for the experience section of the content page */
-/* Some of the styling of experience section is inherited from education section's styling */
 .experience-container{
   gap: 2rem;
 }
@@ -413,4 +413,4 @@ footer {
   font-size: 1.25rem;
   color: #ffc25c;
   cursor: pointer;
-}/*# sourceMappingURL=style.css.map */
+}
