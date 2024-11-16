@@ -6,7 +6,6 @@
   outline: none;
   box-sizing: border-box;
   font-family: "Hubot Sans", sans-serif;
-  /* outline: 1px solid #000; */
 }
 
 ::-webkit-scrollbar {
@@ -67,26 +66,16 @@ body {
   color: #0a3c56;
 }
 
-.text-section__text5 a{
-  text-decoration: none;
-  color: #007acc;
-}
-
 .text-section__button {
   background-color: #007acc;
+  color: #fff;
   padding: 1rem 0;
   border-radius: 0.5rem;
+  font-size: 1rem;
 }
 
-.text-section__button a{
-  text-decoration: none;
-  color: #fff;
-  font-size: 1rem;
-  font-weight: 500;
-  display: flex;
-  gap: 0.5rem;
-  justify-content: center;
-  align-items: center;
+.fa-circle-down{
+  margin-right: 0.25rem;
 }
 
 .personal-info__image-section {
@@ -195,7 +184,7 @@ body {
   width: 80vw;
   height: 100%;
   border-radius: 8px;
-  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
 }
 
 .project {
@@ -224,6 +213,12 @@ body {
   height: 100%;
   object-fit: cover;
   z-index: -1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  font-size: 2rem;
+  text-align: center;
 }
 
 .project__description{
@@ -238,7 +233,6 @@ body {
 .description__location{
   display: flex;
   align-items: center;
-  gap: 0.5rem;
   font-size: 0.75rem;
   color: #0a3c56;
   margin-bottom: 1rem;
@@ -518,4 +512,10 @@ footer {
   font-size: 1.25rem;
   color: #ffc25c;
   cursor: pointer;
+}
+
+@media (max-width: 768px){
+  .footer-contact i{
+    font-size: 1rem;
+  }
 }
